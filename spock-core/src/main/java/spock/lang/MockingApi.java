@@ -61,8 +61,8 @@ import org.spockframework.runtime.GroovyRuntimeUtil;
  * def spy = Spy(Person, constructorArgs: ["Fred"])
  *
  * Person stub = Stub {
- *   getName() >> "Fred"
- *   sing() >> "Tra-la-la"
+ *   getName() << "Fred"
+ *   sing() << "Tra-la-la"
  * }
  * </pre>
  */
